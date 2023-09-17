@@ -1,0 +1,913 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+:root {
+    --dark-color: #040E56;
+    --redish: #FD2C60;
+    --light-blue: #EAEDFF;
+
+}
+/*Navbar CSS*/
+nav {
+    width: 100%;
+    padding: 10px 0;
+    background-color: var(--dark-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav img {
+    height: 60px;
+}
+
+.content-container {
+    max-width: 1500px;
+    width: 100%;
+    padding:0 20px;
+}
+/*Main-Section CSS*/
+.main-section {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(to right, #ffffff, #fffffff8, rgba(255, 255, 255, 0.247), rgba(255, 255, 255, 0.247)), url('images/Banner.png');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 0.7fr;
+    grid-gap: 70px;
+    padding: 70px 0;
+}
+
+.flexed-data {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-section .header {
+    font-size: 58px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-section .color-change {
+    color: var(--redish);
+}
+
+.main-section .text-discription {
+    font-size: 18px;
+    padding: 20px 0;
+    width: 80%;
+}
+
+.btn {
+    background-color: var(--dark-color);
+    color: white;
+    padding: 7px 14px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+}
+
+.flexed-data .three-grid-cards {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+    margin: 50px 0 0 0;
+}
+
+.flexed-data .card {
+    background-color: rgba(255, 255, 255, 0.651);
+    padding: 15px;
+    display: flex;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.flexed-data .number-shade{
+display: flex;
+justify-content: flex-end;
+}
+
+.flexed-data .Cshade{
+    position: absolute;
+    font-size: 70px;
+    margin-right: 30px;
+    opacity: 0.3;
+}
+
+.flexed-data .Chead{
+    color: #040E56;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.flexed-data .Cdata{
+    font-size: 14px;
+}
+.form{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 20px 0;
+}
+form{
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.form-head{
+    font-size: 20px;
+    color: var(--dark-color);
+    font-weight: 600;
+    margin: 10px 0;
+}
+.some-Inpur-Fields{
+    background-color: var(--light-blue);
+    padding: 20px 30px;
+    border-radius: 8px;
+
+}
+.input-Fields{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-gap: 8px;
+}
+input{
+    border: none;
+    padding: 10px 5px;
+}
+.different-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 30px;
+}
+.different-section button{
+    width: 100%;
+    font-size: 16px;
+    color: white;
+    background-color: var(--redish);
+    padding: 7px 14px;
+    border-radius: 10px;
+    border: none;
+    margin: 10px 0;
+}
+/*Next-1-Section CSS*/
+.next-1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 80px 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.next-1 .header{
+    font-size: 42px;
+    color: var(--dark-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+}
+.next-1 .weight-change{
+    font-weight: 600;
+}
+
+.data-for-next-1{
+    display: grid;
+    grid-template-columns: 1fr 0.75fr;
+    grid-gap: 50px;
+}
+.data-for-next-1-2{
+    display: grid;
+    grid-template-columns: 0.75fr 1fr;
+    grid-gap: 50px;
+}
+.graphics-1-2{
+    display: flex;
+    align-items: flex-end;
+}
+.graphics{
+    display: flex;
+    justify-content: flex-end;
+}
+.graphics-2{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.graphic-1{
+    background-color: var(--light-blue);
+    rotate: -140.4deg;
+    height: 513px;
+    width: 400px;
+    border-radius: 30px;
+}
+
+.graphic-1 img{
+    rotate: 140.4deg;
+    height: 100%;
+    width: 500px;
+    float: right;
+    border: 10px solid white;
+    border-radius: 30px;
+    z-index: 100;
+}
+.graphic-2{
+    width: 141px;
+    height: 141px;
+    border-radius: 20px;
+    background-color: var(--dark-color);
+}
+
+.graphic-2 p{
+    display: none;
+}
+.images-last{
+    display: none;
+    }
+.flex-data{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.dataLine{
+    display: flex;
+    width: 100%;
+    padding: 15px 20px;
+    align-items: flex-start;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.dataLine img{
+    margin-right: 15px;
+    width: 25px;
+}
+.data-dataLine{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.right-align{
+    margin-left: auto;
+    rotate: 180deg;
+}
+
+.icon-aligner{
+    display: flex;
+        justify-content: flex-start;
+
+}
+.data-small{
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+.coloured-Next{
+    background: linear-gradient( 120deg, #EAEDFF, #fffffff8, rgb(255, 246, 234));
+    padding-bottom: 80px;
+}
+
+
+.last-one{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+.data-gridForLast{
+    width: 100%;
+    margin: 70px 0;
+    display: grid;
+    grid-template-columns: 1fr 0.9fr;
+    border-radius: 13px;
+    color: white;
+    background-color: var(--dark-color);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.image-last-one{
+    background-position: center;
+    background-size: cover;
+    background-image: url('images/CTA\ image.png');
+    border-top-left-radius: 13px;
+    border-bottom-left-radius: 13px;
+}
+.image-last-one p{
+    display: none;
+}
+.data-gridForLast .text{
+
+    padding: 70px 40px;
+}
+.HeadLastOne{
+    font-size: 42px;
+    font-weight: 600;
+    color: white;
+}
+.ParaLastOne{
+    font-size: 14px;
+    color: var(--light-blue);
+    padding: 10px 0;
+}
+.BtnLastOne{
+    background-color: var(--redish);
+    margin: 20px 0;
+}
+.main-dataLastOne{
+display: flex;
+}
+.graphic-lastOne img{
+    position: absolute;
+}
+/*add on*/
+.swiper {
+        width: 250px;
+        float: left;
+    height: 100%;
+    border-radius: 10px;
+  }
+
+  .swiper-slide {
+    font-size: 18px;
+    background: transparent;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .swiper-slide {
+    width: 80%;
+  }
+  /*add on*/
+  .swiper-class{
+    display: none;
+    width: 100%;
+    margin: 20px 0;
+  }
+  .onInput{
+    display: none;
+  }
+  .class-for-mobile{
+    display: none;
+    
+}
+
+.different-section input{
+    display: none;
+}
+.for-mobile-view{
+    display: none;
+}
+.input-Fields .submitInput{
+    display: none;
+}
+
+@media (max-width:1547px){
+    .graphic-lastOne{
+        display: none;
+    }
+}
+@media (max-width:1477px){
+    .graphic-1 img{
+        width: 450px;
+    }
+    .graphic-2{
+        width: 100px;
+        height: 100px;
+    }
+    .graphic-1{
+        height: 450px;
+        width: 400px;
+    }
+}
+@media (max-width:1189px){
+    .graphic-1 img{
+        width: 400px;
+    }
+    .graphic-2{
+        width: 100px;
+        height: 100px;
+    }
+    .graphic-1{
+        height: 400px;
+        width: 350px;
+    }
+    .data-gridForLast{
+        grid-template-columns: 0.8fr 1fr;
+    }
+}
+@media (max-width:1075px){
+    nav img {
+        height: 50px;
+    }
+    .main-section .header {
+        font-size: 48px;
+    }
+    .content-container {
+        padding:0 10px;
+    }
+    .grid-container {
+        grid-template-columns: 1fr 0.5fr;
+        grid-gap: 20px;
+        padding: 40px 0;
+    }
+    .main-section .text-discription {
+        font-size: 15px;
+        padding: 15px 0;
+        width: 100%;
+    }
+    .btn {
+        padding: 10px 20px;
+        font-size: 13px;
+    }
+    .graphic-1 img{
+        width: 350px;
+    }
+    .graphic-2{
+        width: 60px;
+        height: 60px;
+    }
+    .graphic-1{
+        height: 350px;
+        width: 325px;
+    }
+    .data-gridForLast{
+        grid-template-columns: 0.8fr 1fr;
+    }
+    .next-1{
+        padding: 0 0 40px 0;
+    }
+    .next-1 .header{
+        font-size: 32px;
+        margin: 40px 0;
+    } 
+    .data-for-next-1{
+        grid-gap: 25px;
+    }
+    .data-for-next-1-2{
+        grid-gap: 25px;
+    }
+    .dataLine{
+        padding: 10px 15px;
+        margin-bottom: 15px;
+    }
+    
+    .dataLine img{
+        margin-right: 10px;
+        width: 25px;
+    }
+    .data-dataLine{
+        font-size: 16px;
+    }
+    .data-small{
+        font-size: 14px;
+        margin-top: 15px;
+    }
+    .data-gridForLast{
+        margin: 40px 0;
+        grid-template-columns: 0.9fr 1fr;
+    }
+    .data-gridForLast .text{
+        padding: 35px 20px;
+    }
+    .HeadLastOne{
+        font-size: 35px;
+    }
+    .ParaLastOne{
+        font-size: 13px;
+    }
+    .BtnLastOne{
+        margin:20px 0px;
+        margin-left: 0px;
+    }
+    .some-Inpur-Fields{
+        padding: 10px 15px;
+    }
+    .different-section{
+        padding: 10px 15px;
+    }
+    .different-section button{
+        font-size: 14px;
+        padding: 6px 12px;
+    }
+}
+@media (max-width: 855px){
+     .graphic-1 img{
+        width: 325px;
+    }
+    .graphic-2{
+        width: 60px;
+        height: 60px;
+    }
+    .graphic-1{
+        height: 325px;
+        width: 300px;
+    }
+    .flexed-data .three-grid-cards {
+        display: none;
+    }
+    .swiper-class{
+        display: block;
+    }
+    .flexed-data .card {
+margin: 0;
+    }
+}
+@media (max-width: 763px){
+      .main-section .header {
+        font-size: 40px;
+    }
+    .graphic-1 img{
+        width: 300px;
+    }
+    .graphic-2{
+        width: 60px;
+        height: 60px;
+    }
+    .graphic-1{
+        height: 300px;
+        width: 275px;
+    }
+    .graphic-1 img{
+        border: 6px solid white;
+    }
+    .graphics-2{
+        display: none;
+    }
+    .graphics{
+        display: none;
+    }
+    .data-for-next-1{
+        grid-template-columns: 1fr;
+    }
+    .data-for-next-1-2{
+        grid-template-columns: 1fr;
+    }
+    .onInput{
+        display: block;
+      }
+
+}
+@media (max-width: 669px){
+      .main-section .header {
+        font-size: 35px;
+    }
+
+}
+@media (max-width: 589px){
+    nav {
+        padding: 10px 0;
+    }
+    .images-last{
+        display: block;
+        height: 400px;
+        background-position: center;
+        background-size: cover;
+        background-image: url('images/bitmap.png');
+    }
+    .images-last p{
+        display: none;
+    }
+    nav img {
+        height: 60px;
+    }
+    .content-container {
+        padding:0 10px;
+    }
+    /*Main-Section CSS*/
+    .grid-container {
+        grid-template-columns: 1fr;
+        grid-gap: 0px;
+        padding: 35px 0;
+    }
+    .main-section .header {
+        font-size: 50px;
+    }
+    .main-section .text-discription {
+        font-size: 18px;
+        padding: 20px 0;
+        width: 100%;
+    }
+    
+    .btn {
+        padding: 15px 10px;
+        font-size: 13px;
+    }
+
+    .form{
+        margin:0;
+    }
+    .form-head{
+        font-size: 20px;
+        margin: 10px 0;
+    }
+    .some-Inpur-Fields{
+        padding: 20px 30px;
+    
+    }
+    .different-section{
+        padding: 20px 30px;
+    }
+    .different-section button{
+        font-size: 16px;
+        padding: 7px 14px;
+        margin: 10px 0;
+    }
+    /*Next-1-Section CSS*/
+    .next-1{
+        padding: 0 0 40px 0;
+    }
+    .next-1 .header{
+        font-size: 42px;
+        margin: 20px 0;
+        text-align: center;
+    }
+    .data-for-next-1{
+        grid-template-columns: 1fr;
+        grid-gap: 0px;
+    }
+    .data-for-next-1-2{
+        grid-template-columns: 1fr;
+        grid-gap: 0px;
+    }
+    .graphic-1{
+        height: 513px;
+        width: 400px;
+    }
+    
+    .graphic-1 img{
+        height: 100%;
+        max-width: 500px;
+        width: 100%;
+        float: right;
+        border: 10px solid white;
+        border-radius: 30px;
+    }
+    .graphic-2{
+        width: 141px;
+        height: 141px;
+        border-radius: 20px;
+    }
+    .dataLine{
+        padding: 15px 20px;
+        margin-bottom: 20px;
+    }
+    
+    .dataLine img{
+        margin-right: 15px;
+    }
+    .data-dataLine{
+        font-size: 20px;
+    }
+    .data-small{
+        font-size: 17px;
+        margin-top: 20px;
+    }
+    
+    .coloured-Next{
+        padding-bottom: 40px;
+    }
+    .data-gridForLast{
+        grid-template-columns: 1fr;
+    }
+
+    .data-gridForLast .text{
+        padding: 35px 20px;
+    }
+    .HeadLastOne{
+        font-size: 42px;
+    }
+    .ParaLastOne{
+        font-size: 14px;
+        padding: 10px 0;
+    }
+    .BtnLastOne{
+        margin: 20px 0;
+    }
+    .class-for-mobile{
+        display: block;
+        width: 100%;
+    }
+      .form{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+      }
+      nav img {
+        height: 35px;
+    }
+    .main-section .header {
+        font-size: 28px;
+    }
+    .main-section .text-discription {
+        font-size: 15px;
+        padding: 15px 0;
+        width: 100%;
+    }
+    .grid-container {
+        grid-gap: 20px;
+        padding: 40px 0;
+    }
+    .main-section .text-discription {
+        font-size: 15px;
+        padding: 15px 0;
+        width: 100%;
+    }
+    .graphic-1 img{
+        width: 350px;
+    }
+    .graphic-2{
+        width: 60px;
+        height: 60px;
+    }
+    .graphic-1{
+        height: 350px;
+        width: 325px;
+    }
+    .next-1{
+        padding: 0 0 40px 0;
+    }
+    .next-1 .header{
+        font-size: 32px;
+        margin: 40px 0;
+    } 
+    .data-for-next-1{
+        grid-gap: 25px;
+    }
+    .data-for-next-1-2{
+        grid-gap: 25px;
+    }
+    .dataLine{
+        padding: 10px 15px;
+        margin-bottom: 15px;
+    }
+    
+    .dataLine img{
+        margin-right: 10px;
+        width: 25px;
+    }
+    .data-dataLine{
+        font-size: 16px;
+    }
+    .data-small{
+        font-size: 14px;
+        margin-top: 15px;
+    }
+    .data-gridForLast{
+        margin: 10px 0;
+    }
+    .data-gridForLast .text{
+        padding: 35px 20px;
+    }
+    .HeadLastOne{
+        font-size: 35px;
+    }
+    .ParaLastOne{
+        font-size: 13px;
+    }
+    .BtnLastOne{
+        margin: 10px 0;
+    }
+    .some-Inpur-Fields{
+        padding: 10px 15px;
+    }
+    .different-section{
+        padding: 10px 15px;
+    }
+    .different-section button{
+        font-size: 14px;
+        padding: 6px 12px;
+    }
+    .next-1 .header{
+        font-size: 25px;
+    }
+    .HeadLastOne{
+        font-size: 25px;
+    }
+    form{
+width: 100%;
+    }
+    
+    .different-section{
+        display: none;
+    }
+    
+    .input-Fields{
+        grid-template-columns: 1fr 1fr;
+    }
+    .input-Fields .submitInput{
+        color: white;
+        background-color: var(--redish);
+        border: none;
+    }
+    
+    .for-mobile-view{
+        display: block;
+    }
+    .input-Fields .submitInput{
+        display: block;
+    }
+    
+}
+@media (max-width:449px){
+    .input-Fields{
+        grid-template-columns: 1fr;
+    }
+    .different-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    form{
+        padding: 20px;
+        margin: 20px;
+    }
+.different-section button{
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    color: white;
+    background-color: var(--redish);
+    padding: 7px 14px;
+    border-radius: 13px;
+    margin-left: 0px;
+}
+    .for-mobile-view{
+        display: none;
+    }
+    .input-Fields .submitInput{
+        display: none;
+    }
+
+}
+@media (max-width:400px){
+    form{
+        padding: 20px;
+        margin: 0px;
+    }
+
+}
+@media (max-width:358px){
+    form{
+        padding: 0px;
+    }
+    /*
+    .different-section{
+        display: flex;
+    }
+    .for-mobile-view{
+        display: none;
+    }
+    .input-Fields .submitInput{
+        display: none;
+    }
+    */
+}
+@media (max-width:298px){
+.content-container{
+    padding: 0;
+}
+.some-Inpur-Fields{
+    padding: 10px 10px;
+
+}
+.different-section{
+    padding: 10px 10px;
+}
+.data-gridForLast{
+    border-radius: 0px;
+}
+.main-section .header {
+margin: 0 10px;
+}
+
+.main-section .text-discription {
+    padding: 10px 10px;
+}
+
+.btn {
+margin: 0 10px;
+}
+}
